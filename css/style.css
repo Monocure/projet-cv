@@ -1,0 +1,61 @@
+cvv-css
+
+body{
+
+ padding: 0px;
+ margin: 0px;
+
+}
+.container{
+
+    display: flex; 
+    flex-direction:column;
+    width: 100vw;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.formations, .competences{
+    background-color: #4eb1ba; 
+    text-align: center;
+    color: #F0F0F0;
+}
+.formations table tr td, .competences table tr td{
+
+    color: #F0F0F0;
+
+}
+.exp table tr td{
+    color: #4eb1ba;
+    text-align: center;
+}
+
+.exp{
+
+    color: #4eb1ba;
+    text-align: center;
+}
+
+table{
+
+    margin-left: 25vw;
+    width: 50vw;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+header img{
+
+    margin-left: 50vw;
+    border-radius: 50%;
+
+}
